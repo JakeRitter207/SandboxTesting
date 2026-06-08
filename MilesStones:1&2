@@ -51,3 +51,49 @@ Debugger works
 Deliverable:
 Environment Ready
 
+Milestone 2: Application Skeleton
+Goal
+Build structure before behavior.
+
+Phase 2.1: Create Domain Classes
+Classes:
+Reservation
+ReservationService
+Reservation:
+CustomerName
+ReservationDate
+PartySize
+No validation yet. Just data.
+
+Phase 2.2: Create WinForms Layout
+Add:
+Customer Name
+Reservation Date
+Party Size
+Submit Button
+Focus:
+Control names
+Layout
+Readability
+No logic yet.
+
+Phase 2.3: Connect UI To Objects
+Button click should:
+Read values
+Create Reservation object
+Display object values
+Temporary test:
+MessageBox
+QA Lesson:
+Verify data travels correctly.
+
+Phase 2.4: Data Flow Validation
+Test:
+Enter Name
+Enter Date
+Enter Party Size
+Submit
+Confirm:
+UI -> Object Creation
+No business rules yet.
+
