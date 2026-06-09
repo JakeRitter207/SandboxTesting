@@ -1,0 +1,74 @@
+Scope
+The application will remain intentionally small and focused.
+The system will consist of:
+
+A WinForms user interface
+Basic C# domain objects
+Validation logic for reservation data
+JSON file storage for persistence
+Simple display of saved reservations
+Users will be able to:
+Enter reservation information
+Submit reservations
+Receive validation feedback
+Save valid reservations
+View previously saved reservations
+
+
+Core Reservation Fields
+Customer Name
+Reservation Date
+Party Size
+
+Validation Rules
+Customer Name is required
+Reservation Date must be in the future
+Party Size must be greater than zero
+
+Duplicate reservations are not allowed
+Same Customer Name
+Same Reservation Date
+
+Technical Learning Goals
+Object-Oriented Programming
+Classes and Properties
+Collections and Lists
+JSON Serialization
+File Operations
+Event-Driven Programming
+Separation of UI and Business Logic
+Debugging Techniques
+QA Learning Goals
+Requirement Analysis
+Validation Testing
+Boundary Testing
+Negative Testing
+Test Case Creation
+Defect Reporting
+Manual Testing
+Introductory NUnit Automation
+
+
+
+Out of Scope
+The following features will not be included:
+User accounts
+Authentication
+SQL databases
+Networking
+Cloud storage
+Complex reporting
+Advanced UI styling
+Multi-user support
+Production deployment
+
+Success Criteria
+The project is considered successful when:
+Users can create reservations through the WinForms interface.
+Validation rules function correctly.
+Reservations are saved to a JSON file.
+Reservations can be displayed from saved data.
+Manual test cases are executed and documented.
+Core validation rules are covered by NUnit tests.
+
+This project exists primarily to improve C# skills and develop a structured QA problem-solving mindset.
